@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	    <SurfaceView 
+		    android:id="@+id/surface_preview"
+			android:layout_width="160dp" 
+			android:layout_height="120dp"
+			android:background="@drawable/boud">
+		</SurfaceView>
+		<TableLayout  
+		    android:layout_height="fill_parent" 
+		    android:layout_width="fill_parent"
+		    android:gravity="center" 
+		    android:layout_gravity="center"
+		    android:background="@drawable/boud">
+	        <TableRow 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent">
+	            <Button 
+	                android:id="@+id/audio_switch"  
+	                android:text="开启语音"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="fill_parent" 
+	                android:layout_weight="1"/>
+	            <Button 
+	                android:id="@+id/video_switch" 
+	                android:text="关闭语音"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="fill_parent" 
+	                android:layout_weight="1"/>
+
+	        </TableRow>
+	         <TableRow 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent">
+	            <Button 
+	                android:id="@+id/shutdown_meeting" 
+	                android:text="结束聊天"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="fill_parent"  
+	                android:layout_weight="1"/>
+	     
+	        </TableRow>
+        </TableLayout>
+	</LinearLayout>
+
+	<SurfaceView 
+	    android:id="@+id/surfaceView"
+		android:layout_width="match_parent" 
+		android:layout_marginTop="6dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		android:background="@drawable/boud">
+	</SurfaceView>
+
+</LinearLayout>

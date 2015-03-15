@@ -1,0 +1,78 @@
+# view res/layout/face_dialog.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.ty.winchat.WinChatApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.ty.winchat.service.ChatService { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.ty.winchat.service.HeartBeatBroaadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.ty.winchat.ui.FileChoose { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.ty.winchat.ui.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.ty.winchat.ui.MessageChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.ty.winchat.ui.RoomChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.ty.winchat.ui.Set { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.ty.winchat.ui.VideoChat { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.ty.winchat.ui.VoiceChat { <init>(...); }
+
+# view res/layout/main.xml #generated:10
+-keep class com.ty.winchat.widget.PullToRefreshExpandableListView { <init>(...); }
+
+# view res/layout/video_chat1.xml #generated:11
+-keep class com.ty.winchat.widget.VideoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.xbc.Audio.AudioCallActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.xbc.Audio.AudioReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.xbc.Audio.CallOutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.xbc.Video.H264AndroidActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.xbc.Video.VideoReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class net.youmi.android.AdService { <init>(...); }
+
+# onClick res/layout/audioreceiver.xml #generated:50
+-keepclassmembers class * { *** audio_no(...); }
+
+# onClick res/layout/audioreceiver.xml #generated:38
+-keepclassmembers class * { *** audio_yes(...); }
+
+# onClick res/layout/videoreceiver.xml #generated:50
+-keepclassmembers class * { *** button_video_no(...); }
+
+# onClick res/layout/videoreceiver.xml #generated:38
+-keepclassmembers class * { *** button_video_yes(...); }
+
+# onClick res/layout/audio_call.xml #generated:21
+-keepclassmembers class * { *** over(...); }
+
